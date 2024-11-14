@@ -53,4 +53,11 @@ str5 = '中国中文'
 print(str5.encode('utf-8'))
 print(b'\xe4\xb8\xad\xe5\x9b\xbd\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8'))
 
+#替换
+str10 = 'ABC'
+str10.replace('A','a')
+print(str10)
+str10 = str10.replace('A','a')
+print(str10)
+
 
