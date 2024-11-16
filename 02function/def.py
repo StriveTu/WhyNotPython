@@ -6,7 +6,7 @@
 def swap(a,b):
     a = f'xxx{a}xxx'
     b = f'***{b}***'
-    return a,b
+    return b,a
 
 
 m = 10
